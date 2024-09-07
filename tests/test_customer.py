@@ -1,7 +1,7 @@
 import pytest
-from coffee_shop_oop_challenge.lib import Customer
-from coffee_shop_oop_challenge.lib import Coffee
-from coffee_shop_oop_challenge.lib import Order
+from lib.customer import Customer
+from lib.coffee import Coffee
+from lib.order import Order
 
 def test_customer_initialization():
     customer = Customer("Alice")
